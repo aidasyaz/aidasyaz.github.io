@@ -1,0 +1,98 @@
+body{
+	background-image: url("images/astrology.jpg");
+}
+header{
+	border:15px solid white;
+	padding:15px;
+	background-color: #c1cdcd;
+	text-align: center;
+	margin:14px;
+}
+/*image in header*/
+header img{
+	border-radius: 70px;
+}
+/* nav list */
+header nav li{
+	display: inline-block;
+	border:3px solid #a2b5cd;
+	font-size: 25px;
+	margin-left: 8px;
+	margin-bottom: 20px;
+	float:left;
+}
+/*mobile- max-width:480px */
+/*tablet- max-width:768px */
+/*desktop- max-width:1280px */
+
+@media(max-width: 768px){
+	header nav li{
+		float:none;
+	}
+}
+
+.container{
+	width: 100%;
+	max-width: 750px;
+	margin:0 auto;
+}
+div{
+	border:3px solid #e0eeee;
+}
+article{
+	width:100%;
+	float: right;
+}
+@media(min-width: 769px){
+	article{
+		width:500px;
+	}
+}
+
+aside{
+	max-width:250px;
+	border: 2px solid #a2b5cd;
+	background-color: #d1eeee;
+	padding:15px;
+	margin:14px;
+	float:left;
+}
+
+@media(max-width: 768px){
+	aside{
+		width: 100%;
+	}
+}
+section{
+	background-color: #b2dfee;
+	border:2px solid #a2b5cd;
+	padding:15px;
+	margin:14px;
+}
+
+#books{
+	border:black;
+}
+
+figure{
+	display:inline-block;
+	text-align: center;
+	margin:5px;
+}
+iframe{
+	width:425px;
+	height: 315px;
+}
+@media(max-width: 768px){
+	iframe{
+		width:100%;
+	}
+}
+
+footer{
+	border: 2px solid #a2b5cd;
+	background-color:#d1eeee; 
+	padding:10px;
+	margin:20px;
+	clear: both;
+}
